@@ -1,0 +1,148 @@
+
+
+git Commands:
+--------------
+
+$git add .   (file name)
+
+->It will add files/folders from current folder to the cache/local git repository / stage
+-> this action is known as staging
+
+$ git status
+-> It is to check status of added files or to check which set of files staged/added  and which set of files unstaged/not added.
+
+$ git commit -m "Any commit related message"
+-> it will store/save all files and folders into local git repository.
+-> and ready to push to the remote repository
+
+$ git push origin master
+
+-> It will push all files and folders from local repo to the remote repository which is presentated by nick name/alias name "origin" , and  "master" is the branch name.
+
+
+
+
+Note: While doing above process very first time github server asked git client to verify username,email and password for authentication purpose. It is only one time process.
+
+User Authentication:
+
+git config  --global user.name "git_user_name"
+
+git config  --global  user.email  "git_user_email_id"
+
+Note: Here , try to choose browser option for authentication/verification process.
+
+
+
+
+
+Now , let see how other users/team mates can access our repositories.
+
+
+$ git clone  https://github.com/username/RepoName.git
+
+-> it will used to clone others repository into our system/machine.
+ We need not to say "git init" in this case because it is optional 
+
+Note: Use git clone option only very first time to clone repository.
+
+Then after use pull command everytime you want to update / pull  data from remote repository.
+
+
+$ git pull  https://github.com/username/RepoName.git  branch_name
+
+
+
+
+
+$git rm  --cached File_name/folder_name 
+->it will help us to remove anything from staged / cache
+
+$git restore --staged file_name/folder_name 
+->it will help us to restor anything from staged / cache
+
+Note: both rm , restore help us to unstaged files/folders
+
+
+
+
+
+Branching: Creating branches in git.
+
+$git branch  branch_1
+
+$git branch -d branch_1  (to delete the given branch)
+
+$git checkout branch_1
+
+Note: Create some file/folder add,commit,push to the branch_1
+Ex: UserData.txt
+
+$git add .            // this will add UserData.txt file to local repo
+
+$git commit -m "UserData.txt"   // this will save UserData.txt in local repo
+
+$git  push origin branch_1   // this will add UserData.txt file to the branch_1 only in local repo
+Note: This UserData.txt file will not be appear in master branch untill we do merge.
+
+
+
+
+$git checkout master
+
+Note: Always be in master branch before any merge
+
+$git  merge  branch_1
+
+
+Now , Remember when ever we do merge , it will not reflect to the origin/remote until and unless 
+i. pull request is rise  (any developer or Team Lead can do this)
+ii. merge request is confirmed (Repository owner/Product owner / senior person)
+iii. comment is done  (its mandatory)
+
+
+Once done with all merges , unused branches can be deleted.
+
+
+$git  branch -d  branch_1    // it will delete branch_1 only from local repo
+
+$ git push origin -d branch_1  // this command will delete branch_1 permanently from remote
+
+
+
+--------------------
+
+$ git log    // it show all logs history in detail
+
+$ git log --oneline  // it show logs history one line from each commit
+
+
+$git revert HEAD~1   --no-edit   // here --no-edit
+
+$git revert HEAD   abec1234    --no-edit   // abec1234 is a head hashcode or unique number for commit
+
+$git  reset HEAD  aedb1543
+
+$git rebase    // to rebase or merge  feature branches to the master branch
+
+
+
+$git commit  -m "File added by  Javeed"
+
+$git commit   --amend  -m "File updated by Javeed"
+
+
+$git diff  master  branch_1   // it will show difference between master and branch_1
+
+
+
+
+
+
+
+
+
+
+
+
+

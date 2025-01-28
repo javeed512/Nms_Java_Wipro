@@ -1,0 +1,38 @@
+
+
+System Softwares/Desktop Softwares/
+Standalone Application softwares:
+-------------------------------------------------------------
+Desktop softwares or applications are softwares which  runs by itself as standalone.
+
+We need to install them manually.
+
+Ex: O.S , MS Office , Paint , Browser , EClipse IDE 
+
+O.S , Anti virus , Java software , C software , Oracle SQL
+
+
+Web Application softwares:
+--------------------- 
+These softwares are made for specific tasks , normally they run on servers.
+These softwares are also known as web applications softwares.
+
+Web applications executes on Web Servers , and we can access them only through internet using browser.
+Ex: Google, IRCTC , Flipkart , University web site
+
+
+Mobile Application
+------------------
+1. standalone app
+These apps are standalone , they need to install either by  company or user . we can use them without server or internet.
+
+Clock , Calculator, Android O.S , Calendar , file manager , offline video games
+
+2. web app
+
+Need to be install by the user and need internet to access it.
+
+Ex: Wats app , facebook , instagram ,youtube  are web application
+
+
+

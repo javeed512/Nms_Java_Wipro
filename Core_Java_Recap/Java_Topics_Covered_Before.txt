@@ -1,0 +1,87 @@
+Sl. No.	Topics
+1.0	Programming Constructs
+1.1	Introduction to Programming Constructs
+	Overview of Programming Constructs
+	Variables, Expressions, and Statements
+	Introduction to Pseudocode
+	Pseudocode for Common Algorithms
+	Sorting algorithms: Bubble, Selection, Insertion Sort
+	Searching algorithms: Linear Search, Binary Search
+1.2	Control Flow Constructs and Flowcharts
+	Conditional Constructs: If, Else, Switch
+	Looping Constructs: For, While, Do-While
+	Creating and Interpreting Flowcharts
+1.3	Efficient Flowcharting Techniques
+	Using Subroutines in Flowcharts for Repeated Actions
+	Flowchart Symbols for Concurrency and Synchronization
+1.4	Logical Thinking with Operators and Decision Trees
+	Logical Operators: AND, OR, NOT
+	Decision Trees for Problem Solving
+	Flowchart Design for Decision Making Processes
+1.5	Functions and Modular Design
+	Fundamentals of Function Design
+	Modular Programming Concepts
+	Writing Pseudocode for Modular Functions
+2.0	Algorithms and Problem-Solving ---> Need to start after completing  String Handling
+2.1	Basic Algorithms with Pseudocode and Flowcharts using "http://www.flowgorithm.org/"
+	Algorithmic Thinking and Pseudocode
+	Introduction to Sorting Algorithms: Bubble Sort and Insertion Sort
+	Designing Flowcharts for Sorting Algorithms
+2.2	Algorithmic Problem Solving
+	Problem Analysis for Algorithmic Solutions
+	Implementing Search Algorithms: Linear Search and Binary Search
+	Writing and Visualizing Search Algorithms
+2.6	Practical Application of Algorithms
+	Application of Sorting and Searching Algorithms in Real-world Scenarios
+	Dry Run: Step-by-Step Algorithm Testing
+	Group Problem Solving and Algorithm Implementation
+Sl. No.	Topics
+1.0	Java Fundamentals
+1.1	Java Environment Setup
+	Installing JDK
+	Configuring IDEs (Eclipse, IntelliJ IDEA)
+1.2	Java Syntax and Basic Constructs
+	Primitive Data Types and Variables
+	Operators and their Precedence
+	Control Flow Statements (if, switch, loops - for, while, do-while)
+2.0	Arrays in Java
+2.1	Definition and characteristics
+2.2	Implement Basic operations
+	Access
+	Insert
+	Delete
+	Update
+	Reverse
+	Slice
+2.3	Sorting an Array - Brute Force Method
+2.4	Searching an Array - Linear Search Method
+3.0	String Handling
+3.1	String Manipulation: Methods in the String Class
+	StringBuilder and StringBuffer: Mutability and Performance
+4.0	Java Object-Oriented Programming (OOP) Basics
+4.1	Object-Oriented Programming (OOP)
+	Classes and Objects: Definitions and Differences
+	Constructors: Purpose and Types
+	Encapsulation: Access Modifiers and Getters/Setters
+	Inheritance: Superclass and Subclass Relationships
+	Polymorphism: Method Overloading and Overriding
+4.2	Organizing Code
+	Packages: Creating and Using Packages
+	Classpath: Understanding and Setting the Classpath
+	Java Modules: Modular Programming in Java
+5.0	Exception Handling
+5.1	Exception Handling
+	try-catch Blocks: Basic Exception Handling
+	Creating Custom Exceptions: When and How to Create
+6.0	Java Collections Framework and Generics
+6.1	Arrays: Declaration, Initialization, and Usage
+	Introduction to List interface.
+	Exploring ArrayList and LinkedList.
+6.2	Understanding the Set interface.
+	Working with HashSet, LinkedHashSet, and TreeSet.
+	Differentiating between various Set implementations.
+6.3	Introduction to Map interface.
+	Exploring HashMap, LinkedHashMap, and TreeMap.
+	Key-value pair management and use cases.
+6.4	Iterators and Comparators
+7	Logic building program practice

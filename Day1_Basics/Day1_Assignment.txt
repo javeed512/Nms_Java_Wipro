@@ -1,0 +1,9 @@
+Assignment 1: Draw your Home Network Topology and explain how you are accessing the Any(College lab , office lab) Lab environment.
+
+Assignment 2: Identify a real-world application for both parallel computing and networked systems. Explain how these technologies are used and why they are important in that context.
+
+Submission Guidelines:
+1. Ensure that each answer is clear, concise, and reflects an understanding of the core concepts.
+2. Diagrams can be hand-drawn and scanned or created using any digital drawing tool.
+3. Provide references for any external sources used.
+Submit your work in a single PDF document by end of Module

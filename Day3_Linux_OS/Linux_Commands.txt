@@ -1,0 +1,508 @@
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ mkdir  user
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ mkdir  javeed
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+javeed/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls -all
+total 8
+drwxr-xr-x 1 DELL 197121 0 Jan 27 12:03 ./
+drwxr-xr-x 1 DELL 197121 0 Jan 27 12:02 ../
+drwxr-xr-x 1 DELL 197121 0 Jan 27 12:03 javeed/
+drwxr-xr-x 1 DELL 197121 0 Jan 27 12:03 user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls -a
+./  ../  javeed/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cd  javeed
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home/javeed
+$ cd ..
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ touch  file1.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+file1.txt  javeed/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat file1.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat file1.txt
+Hello friends
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat > file1.txt
+I am javeed
+From Hyderabad
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat file1.txt
+I am javeed
+From Hyderabad
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat >> file1.txt
+Thank you
+Friends
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat file1.txt
+I am javeed
+From Hyderabad
+Thank you
+Friends
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat file2.txt
+cat: file2.txt: No such file or directory
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat  >> file2.txt
+We are Java Developer
+Working in Wipro
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat  file2.txt
+We are Java Developer
+Working in Wipro
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat << file1.txt
+>
+bash: warning: here-document at line 20 delimited by end-of-file (wanted `file1.txt')
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ touch  demo.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+demo.txt  file1.txt  file2.txt  javeed/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ mkdir  myfolder
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+demo.txt  file1.txt  file2.txt  javeed/  myfolder/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ rm  demo.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+file1.txt  file2.txt  javeed/  myfolder/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ rm myfolder
+rm: cannot remove 'myfolder': Is a directory
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ rmdir  myfolder
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+file1.txt  file2.txt  javeed/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat >> product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat >> product.txt
+105  charger  400
+106  printer  3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ mv  product.txt    items.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat  product.txt
+cat: product.txt: No such file or directory
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+file1.txt  file2.txt  items.txt  javeed/  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cp   items.txt  product.txt
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ ls
+file1.txt  file2.txt  items.txt  javeed/  product.txt  user/
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat items.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cal
+bash: cal: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ whoami
+DELL
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ sudo
+bash: sudo: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ sudo apt install  ncal
+bash: sudo: command not found
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ date
+Mon, Jan 27, 2025 12:51:01 PM
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ date  "%T"
+date: invalid date ‘%T’
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ date  "+%T"
+12:52:33
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ date  "+%H  %M"
+12  52
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ date  "+%d  %h"
+27  Jan
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ date  "+%d  %h  %m"
+27  Jan  01
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ date  "+%H  %M  %R"
+12  55  12:55
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat  product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ nl product.txt
+     1  101  mobile   50000
+     2  102  laptop   60000
+     3  103   toys      300
+     4  104   books    1200
+     5  105  charger  400
+     6  106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ nl  -v101  -i2   product.txt
+   101  101  mobile   50000
+   103  102  laptop   60000
+   105  103   toys      300
+   107  104   books    1200
+   109  105  charger  400
+   111  106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ nl  -v10  -i5   product.txt
+    10  101  mobile   50000
+    15  102  laptop   60000
+    20  103   toys      300
+    25  104   books    1200
+    30  105  charger  400
+    35  106  printer   3000
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+<<<<<<< HEAD
+$ date --help
+
+
+
+
+
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+=======
+>>>>>>> master
+$ nl   -w2   -v10  -i5   product.txt
+10      101  mobile   50000
+15      102  laptop   60000
+20      103   toys      300
+25      104   books    1200
+30      105  charger  400
+35      106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ nl   -w3   -v10  -i5   product.txt
+ 10     101  mobile   50000
+ 15     102  laptop   60000
+ 20     103   toys      300
+ 25     104   books    1200
+ 30     105  charger  400
+ 35     106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ nl   -w5   -v10  -i5   product.txt
+   10   101  mobile   50000
+   15   102  laptop   60000
+   20   103   toys      300
+   25   104   books    1200
+   30   105  charger  400
+   35   106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ tty --help
+Usage: tty [OPTION]...
+Print the file name of the terminal connected to standard input.
+
+  -s, --silent, --quiet   print nothing, only return an exit status
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/tty>
+or available locally via: info '(coreutils) tty invocation'
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ tty
+/dev/cons0
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ who
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ whoami
+DELL
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat -n  product.txt
+     1  101  mobile   50000
+     2  102  laptop   60000
+     3  103   toys      300
+     4  104   books    1200
+     5  105  charger  400
+     6  106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat -n  -E  product.txt
+     1  101  mobile   50000$
+     2  102  laptop   60000$
+     3  103   toys      300$
+     4  104   books    1200$
+     5  105  charger  400$
+     6  106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ head product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ head  -4 product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ tail -3  product.txt
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ tail +3 product.txt
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ tail +2 product.txt
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ head +5 product.txt
+head: cannot open '+5' for reading: No such file or directory
+==> product.txt <==
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cat product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cut  -c1-3  product.txt
+101
+102
+103
+104
+105
+106
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cut  -c6-12  product.txt
+mobile
+laptop
+ toys
+ books
+charger
+printer
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cut  -c14-20  product.txt
+ 50000
+ 60000
+   300
+  1200
+ 400
+  3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cut  -c14-22  product.txt
+ 50000
+ 60000
+   300
+  1200
+ 400
+  3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ cut  -c6-12,14-22  product.txt
+mobile  50000
+laptop  60000
+ toys     300
+ books   1200
+charger 400
+printer  3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ paste   product.txt    store.txt
+paste: store.txt: No such file or directory
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ paste   product.txt    file1.txt
+101  mobile   50000     I am javeed
+102  laptop   60000     From Hyderabad
+103   toys      300     Thank you
+104   books    1200     Friends
+105  charger  400
+106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ paste   -d'|'  product.txt    file1.txt
+101  mobile   50000|I am javeed
+102  laptop   60000|From Hyderabad
+103   toys      300|Thank you
+104   books    1200|Friends
+105  charger  400|
+106  printer   3000|
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ sort product.txt
+101  mobile   50000
+102  laptop   60000
+103   toys      300
+104   books    1200
+105  charger  400
+106  printer   3000
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ sort file1.txt
+Friends
+From Hyderabad
+I am javeed
+Thank you
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ sort  -r file1.txt
+Thank you
+I am javeed
+From Hyderabad
+Friends
+
+DELL@DESKTOP-CML02CA MINGW64 /e/Linux_Home
+$ sort  -r product.txt
+106  printer   3000
+105  charger  400
+104   books    1200
+103   toys      300
+102  laptop   60000
+<<<<<<< HEAD
+101  mobile   50000
+
+
+
+
+
+
+=======
+101  mobile   50000
+>>>>>>> master

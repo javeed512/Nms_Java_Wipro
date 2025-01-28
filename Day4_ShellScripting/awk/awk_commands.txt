@@ -1,0 +1,51 @@
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk '{print }'  emp.lst
+101  king   50000  president
+102  tom    45000  developer
+103  smith  30000  developer
+104  ford   25000  tester
+105  javeed 20000  manager
+106  scott   5000  clerk
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk   -F"|"  '{print }'  emp.lst
+101  king   50000  president
+102  tom    45000  developer
+103  smith  30000  developer
+104  ford   25000  tester
+105  javeed 20000  manager
+106  scott   5000  clerk
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk     '/developer/ {print }'  emp.lst
+102  tom    45000  developer
+103  smith  30000  developer
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk     '/developer/ {print  $2,$3 }'  emp.lst
+tom 45000
+smith 30000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk     '/developer|tester/ {print  $2,$3 }'  emp.lst
+tom 45000
+smith 30000
+ford 25000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk      '$1 == 101  {print }'  emp.lst
+101  king   50000  president
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk      '$3 > 30000  {print }'  emp.lst
+101  king   50000  president
+102  tom    45000  developer
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk      '$3 > 30000  {print  $3 + 1000 }'  emp.lst
+51000
+46000
+
+DELL@DESKTOP-CML02CA MINGW64 /d/Linux_Commands/awk
+$ awk      '$2=="javeed"  {print }'  emp.lst
+105  javeed 20000  manager

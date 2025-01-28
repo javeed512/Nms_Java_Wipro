@@ -1,0 +1,80 @@
+
+
+IP Address:
+Unique address/number given to every machine. So that machine can be easily identified on that network.
+
+1.127.99.45   ---> 32 bit IP Address IPv4
+
+Above is 4-octet Ip Address
+
+0-255
+
+ex: 72.19.121.200 ---> 4 Billions
+
+IPv4 IP Address:
+----------------
+->One which Facilitate Routing of packets over network using TCP/IP (32-bit) logical address that is known as IPv4. 
+Its not Secure 
+No encryption of data
+NO Authentication
+
+
+
+ IPv6  IP Address
+-------------------
+
+It is 128 bit hexadecimal address. 
+-> It is secure
+-> It encrypt data
+-> Provides Authentication also.
+
+Total Population today in this world is 7 Billion +
+  IPv6  ---> 128bits IP Address can provide more than 7 Billion IP Addresses.
+
+IPv6 IP Address is based on Hexadecimal Number
+0- 15
+0-9  ,A-F
+
+Ex:
+
+AB12.BA98.5432.3210.FA10.72AB.FFFF.AAAA   (16 Octet)
+
+
+NAT: Network Address  Translation
+-----------------------------------
+This translation allows the communication between hosts/machines having different version of IP Address.
+
+Machine1 (IPv6)  <----------- NAT --------->Machine2(IPv4)
+
+NAT is a way to map multiple private IP-Addresses to the public IP-Address in a local network before transferring information.
+
+
+
+PORT Number:
+-----------
+Port Number is an unique number assign to every individual software/application.
+
+Ex: 8080, 5231, 4200 
+ 0000 to 9999
+
+Note: NO 2 applications can have same port number. Every application should have unique port number.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
