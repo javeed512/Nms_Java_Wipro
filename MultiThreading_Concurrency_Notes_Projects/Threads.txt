@@ -1,0 +1,71 @@
+
+java.lang.Runnable; //interface
+
+
+java.lang.Thread; // impln class 
+
+public interface  Runnable{
+
+	public abstract void run();
+
+}
+
+
+
+public class  Thread implements Runnable {
+
+	public void run(){
+		//empty
+	}
+
+	public void start(){
+
+		// set thread priority  anything between 1 MIN to 10 MAX , 								//  NORM/AVG   5
+		// set thread name
+		// allocate memory and register to ThreadScheduler				// 			Threadscheduler assign CPU time to current thread
+		// run();
+
+	}
+	
+	setter  and getter methods
+	
+		sleep() , join() , yield() , currentThread() ...
+
+
+}
+
+
+
+
+
+
+
+public class MyThread   extends  Thread{
+
+	@Override
+	public void run(){
+
+		// thread related logics
+
+	}
+
+
+}
+
+OR
+
+
+public class MyThread extends Object  implements Runnable{
+
+	@Override
+	public void run(){
+		// thread logic
+
+	}
+	
+
+
+}
+
+
+

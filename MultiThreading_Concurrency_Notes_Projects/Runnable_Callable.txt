@@ -1,0 +1,63 @@
+
+
+	class Task  implements Runnable{
+
+	void run(){
+			// logic to complete task
+	}
+
+
+	OR  
+
+	class Task   implements Callable{
+
+		
+		T call(){
+			// task logic
+		}
+
+	}
+
+
+	}
+
+	void    execute(new Task());
+	Future	f = submit(new Task(), T result);
+
+		f.get(); ---> status/value
+
+
+
+
+
+
+=========================
+
+class  OrderTask   implements  Callable{
+
+
+
+	T call(){
+			// task logic
+		}
+
+
+
+
+}
+
+----------------------------------------
+
+	Thread Pool [  t1 , t2 , t3 ....t10 ]
+
+
+
+
+
+     OrderTask order1  = new OrderTask();
+
+		void execute(order1);
+
+		Future  f = submit(order1,T result);
+
+        f.get or f.get

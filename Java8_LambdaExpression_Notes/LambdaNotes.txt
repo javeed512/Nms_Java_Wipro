@@ -1,0 +1,53 @@
+
+
+Functional Interface / Lambda Exp:
+----------------------------------
+1. Consumer Functional Interface
+public interface MyInterface1{
+
+void  setData(String name); //  MyInterface1  mi1=  (String name)->{ System.out.println(sname);  };
+		
+
+}
+2.Supplier  Functional Interface
+public  interface MyInterface2{
+
+		int  getData();       //  MyInterface2  mi2=  ()->{ return 100; };
+}
+
+
+3. Predicate Functional Interface
+
+public  interface  MyInterface3{
+
+	 boolean  isValid(String data);  // //  MyInterface3  mi3=  ()->{  return data.length() > 0; };
+
+}
+
+4. Function  Functional Interface
+public  interface  MyInterface4{
+
+	int   findLength(String name); //  MyInterface4  mi4=  (name)->{ return name.length(); };
+
+}
+
+
+
+
+
+
+
+
+public  void m1(){
+
+		  ()->{
+
+
+			}
+	
+
+
+}
+
+
+m1(public void m2(){....})
