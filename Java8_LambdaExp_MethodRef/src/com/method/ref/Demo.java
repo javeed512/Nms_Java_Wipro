@@ -15,7 +15,9 @@ public class Demo {
 				
 		Consumer<String>  consumer2 =   System.out::println;
 				consumer2.accept("king");	
-				consumer2.accept("tom");	
+				consumer2.accept("tom");
+				
+				
 				
 
 	}

@@ -1,0 +1,78 @@
+
+Java8 Features:
+
+1. Functional Interface 
+2. Lambda Expression
+3. defualt and static methods in interfaces
+4. method reference (::)
+5. java.time package (DateTime API)
+6. java.util.concurrent (added)
+7. Stream API
+8. lots of update in Collections
+
+
+method reference:
+
+
+(name) -> System.out.println(name);
+
+System.out::println;
+
+
+public interface  Consumer<T>{
+
+
+	void accept(T t);
+
+
+}
+
+Consumer c1 =  (T t)->{ System.out.println(t);};
+Consumer c2 = System.out::println;
+	
+		c1.accept("tom")
+
+
+new Employee();
+
+Employee::new;
+
+
+
+--------------------------------
+java.util.*;
+interface Comparator{
+
+	compare();
+	
+
+}
+
+class MyComparator extends Object implements Comparator<Employee>{
+
+	int compare(){
+
+
+	}
+
+}
+
+
+Important for sorting
+-----------------------
+
+Collections.sort()  or  list.sort() or set.sort()  can use below methods for sorting
+
+Compartor.comparing();
+Comparator.naturalOrder();
+Comparator.reverseOrder();   
+
+
+
+
+
+
+
+
+
+
