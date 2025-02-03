@@ -1,0 +1,26 @@
+
+Revise 
+
+Generic Data Types
+HashMap
+Comparator
+
+public interface  RandomAccess{
+
+
+}
+
+Cloneable , Serializable , RandomAccess...  // marker interfaces
+
+class  ArrayList   implements List , RandomAccess {
+
+
+
+}
+
+class Demo implements Cloneable {
+
+
+	clone(); --> copy of demo object
+
+}
