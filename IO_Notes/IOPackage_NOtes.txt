@@ -1,0 +1,105 @@
+
+IO Package
+-----------
+java.io.*;
+
+In Java using IO Package all input/output operations can be performed by using some IO related APIs.
+
+Stream:  Flow of Data from source to destination.
+
+Character Stream: These classes stream data char by char.
+Reader
+FileReader
+BufferedReader		read();	
+InputStreamReader
+
+void m1(Reader r1); // new Reader()  or new Fil
+
+void  m2(Number n);//valid --> new Number();  new Integer(); new Double();
+
+       //invalid  new String(); new Employee();
+
+
+Writer
+FileWriter		write();
+BufferedWriter
+PrintWriter
+
+
+Applications of Character Stream:
+1. reading or writing characters/text (text file , text docs)
+2. when we to send data or receive data  100% 
+3. read or write data char by char ie., small amount data like messages, OTPs etc
+
+		
+
+Byte Stream:  These classes stream data byte by byte.
+
+(reading purpose)
+InputStream
+FileInputStream			read();
+BufferedInputStream
+ObjectInputStream
+
+
+(writing)
+OutputStream
+FileOutputStream		write();
+BufferedOutputStream
+ObjectOutputStream
+
+Applications:
+----------------
+1. When we need to read or write data byte by byte
+2. Reading any type of files (text file, binary files , images ,audio , videos , digital signatures)
+3. For streaming data from servers/socket channels etc
+4. Here data may be lost.
+
+
+methods: In IO Package , read(),readLine(),readObject(),
+		write(),writeObject(),flush() , close();
+Exceptions:  FileNotFoundException , IOException
+
+
+
+int read(char)  --> it can read one char at a time and returns char ASCII value.
+write(int ASCI) ---> it can write only one char at a time and accept char ASCII Value
+  "ABCD" ---->int read() ---> A ---return--> 65
+  "ABCD"--->A--->65 ---> write(int n)	
+	
+
+
+public class System{
+
+
+	static InputStream  in =  new InputStream();  //any child of InputStream obj;
+	static PrintStream out = new PrintStream();
+	static PrintStream err;
+
+	public static void gc(){
+
+	}
+
+}
+
+System.in
+System.out.println();
+
+
+class PrintStream{
+
+	println(){
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
