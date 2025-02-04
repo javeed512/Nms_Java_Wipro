@@ -1,0 +1,61 @@
+java.sql;
+
+Interfaces:
+--------
+Driver
+Connection
+Statement
+PreparedStatement
+CallableStatement
+ResultSet
+
+
+Class: (Utility classes not implementation classes)
+=====
+DriverManager
+Date
+
+
+JDBC Steps:
+-----------
+
+Only Once:  Import package / add jar file to import package
+1. Register/Load  Driver class to the DriverManager
+2. Get the DB Connection
+3. Create any Statement  and execute query
+  i. Statement  ii. PreparedStatement  iii. CallableStatement
+
+
+	NOTE:  select query --->  ResultSet  executeQuery();
+		non-select query (DML) -->   int  executeUpdate();
+		DDL - boolean execute();
+
+4.close DB connection
+
+
+
+
+
+Data base:
+-----------
+create  database  wipro_db;
+use wipro_db;
+show tables;
+
+
+CREATE TABLE Employees (Eid integer(3) primary key , EName varchar(20),Salary double);
+
+
+ename char(10)    TOM _ _ _ _ _ _ _    //  HDFC1234 , HDFC133 , HDFC5432  // M , F  , O
+ename varchar(10)    TOM _ _ _ _ _ _ _ // TOM , HUSSAIN , SMITH , FORD , RAJENDRA
+
+
+
+
+
+
+
+
+
+
+

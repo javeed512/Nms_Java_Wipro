@@ -1,0 +1,100 @@
+PL/SQL: (OUT OF toc)
+
+Procedure Language for SQL
+
+It is simple procedure lang which allow us to write/use simple programming concepts in SQL.
+
+if-else , loops , case , functions,procedures  etc
+
+stored procedures : 
+functions , procedures, triggers.....
+
+start function  f1
+
+return value;
+
+ insert;
+  update;
+  delete;
+  select;
+
+ end function;
+-----------------------------
+
+create procedure p1(n1 integer ,  n2 integer)
+
+ insert;
+ update;
+  select;
+
+ end p1;
+
+call   p1(4,5);
+
+call cust_pro(?,?,?);
+
+cstmt.setInt(1,301);
+
+
+
+Procedure for Employees table
+------------------------------
+
+CREATE PROCEDURE `emp_pro` (id INT , name varchar(20) , sal decimal(7,2))
+BEGIN
+
+INSERT INTO Employees values(id,'name',sal);
+Delete  From Employees where eid = 104;
+
+END
+
+
+
+How to run procedure in sql:
+------------------------------
+call  emp_pro(105,'ravi',90000);
+
+
+
+
+Creating Procedure of Function in PLSQL:
+========================================
+
+CREATE  PROCEDURE `cust_pro`()
+BEGIN
+
+INSERT INTO CUSTOMER Values(107,'smith',current_date(),12000);
+INSERT INTO CUSTOMER Values(108,'raju',current_date(),15000);
+INSERT INTO CUSTOMER Values(109,'ali',current_date(),16000);
+
+END
+
+
+------------------------
+
+
+CREATE OR REPLACE  Function my_func(id int , name varchar(20),amount int)
+RETURN varchar
+
+BEGIN
+
+my_name varchar(20);
+
+INSERT INTO CUSTOMER VALUES(id,name,current_date,amount);
+
+select cname into  my_name from customer where cid = 101;
+
+return my_name;
+END;
+
+CallableStatement cstmt = conn.prepareCall("{call  my_func(?,?,?) }");
+
+	
+
+
+
+
+
+
+
+
