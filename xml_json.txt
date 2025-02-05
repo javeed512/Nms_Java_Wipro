@@ -1,0 +1,57 @@
+
+Revise:
+-------
+POJO Class (constructor and setters/getters)
+Inheritance
+Interface and Implementation class
+
+xml
+----
+<employee>
+<eid>101</eid>
+<ename>javeed</ename>
+<salary>8000</salary>
+</employee>
+
+json 
+-----
+
+employee:{
+		"eid":101,
+		"ename":"javeed",
+		"salary": 80000
+
+
+	}
+
+
+class Address{
+
+}
+
+
+
+
+class  Employee{
+
+	private int eid;
+	private  String ename;
+
+	private  Address address;
+
+
+}
+
+
+	Eager/Early  
+
+	e1 = new Employee() ---> a1=  new Address();
+
+	
+	and Lazy
+	
+	e1 =new Employee() --->   a1 = null;
+
+		e1.getAddress();  --> new Address(); // on demand
+
+

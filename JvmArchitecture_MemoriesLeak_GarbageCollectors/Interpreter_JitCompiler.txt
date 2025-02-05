@@ -1,0 +1,40 @@
+
+Example:
+
+class  HelloWorld{
+
+	public static void main(String[] ar){
+
+		int x = 10;  // 1sec
+		String name = "javeed"; // 1sec
+	
+		//  if interpreter will take around 20sec
+		// if JIT Compiler is invoke by JVM 
+		for(int i=0; i<5; i++){  // 4 secs by JIT Compiler
+
+			System.out.println(i);
+		}
+
+
+
+	}	
+
+
+
+
+}
+
+1.To convert from .java to .class file Java Compiler(javac) is used.
+2. Jvm translate .class file into bytecode with the help of interpreter and JIT Compiler and this bytecode will be executed by CPU/Processor
+
+Java uses both Interpreter and Compiler.
+
+Interpreter:
+------------
+It convert one line of code at a time.
+int x =99; 
+System.out.println("hello");
+
+JIT Compiler: It is a translator which translate same and repeated code in minimum time to increase performance.
+
+

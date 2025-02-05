@@ -1,0 +1,47 @@
+
+SDLC:
+-----
+
+1. Requirement phase (B.A)
+2. Analyse and Design phase (Designer)
+3. Development/Implementation/Coding along with unit testing (Developers)
+4. Integration Testing (testers / QA)
+5. Deployment
+
+
+Client:  calculator
+
+int  add(int,int);
+
+TDD
+Test Cases:
+TC1 : 5,5   --> 10
+TC2  : 4,-3  --> 1
+TC3 : -2,-3
+TC4: 0,0
+TC5: 101,200
+
+
+Assertions class
+
+assertXX();
+
+assertEquals(x,y);
+assertNotEquals(data1,data2):
+assertTrue(data);
+
+
+Important Annotations:
+------------------------
+@Test: It is mandatory and its  responsible to execute test methods
+@DisplayName: it is used to set custom names to the test methods
+@Disable : it will disabled or ignore test case
+
+@BeforeAll : any method using this annotation will execute only once before all test cases
+@AfterAll : any method using this annotation will execute only once after all test cases
+
+@BeforeEach: any method using this annotation will execute before every test case
+@AfterEach: any method using this annotation will execute after every test case
+
+
+
