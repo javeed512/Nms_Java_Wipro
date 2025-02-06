@@ -1,0 +1,32 @@
+
+
+
+API:
+
+Application Programming Interface 
+
+
+Java Program  ---->   JDBC API   --->Mysql Database
+
+JDBC API:
+*set of packages
+* set of interfaces and classes
+* set of predefined methods
+
+String API
+java.lang
+String,StringBuffer,StringBuilder  and methods
+
+
+
+java.util.*; package 
+
+Collections APIs/Framework
+set of interfaces
+set of classes
+set of methods
+
+
+
+
+

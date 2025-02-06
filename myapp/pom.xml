@@ -13,7 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sc1>compile</sc1>
-    <version>11</version>
+    <version>1.8</version>
     <maven.compiler.source>${version}</maven.compiler.source>
     <maven.compiler.target>${version}</maven.compiler.target>
     
@@ -56,11 +56,22 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.8.0</version>
     <configuration>
-        <source>11</source>   <!-- maven.compiler.source  -->
-        <target>11</target> <!-- maven.compiler.target -->
+        <source>1.8</source>   <!-- maven.compiler.source  -->
+        <target>1.8</target> <!-- maven.compiler.target -->
     </configuration>
 </plugin>
  
+ 
+ <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.6.2</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+            </configuration>
+          
+        </plugin>
  
  
  </plugins>
