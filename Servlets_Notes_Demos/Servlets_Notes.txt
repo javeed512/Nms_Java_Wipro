@@ -1,0 +1,73 @@
+
+Java Editions
+
+JSE: Java Standard Edition (JDK)
+Standalone/Desktop apps (html not possible)
+
+JEE: Java Enterprise Edition
+
+Servlets,JSP,Hibernate,JPA,Spring,SpringMVC ,Springboot ,microservices ....
+
+console apps
+Web Application or REST Application
+
+JME: Java Micro Edition
+
+
+
+Web Servers:
+------------
+Apache Tomcat , Weblogic , JBoss , Jetty , Wildfly ....
+
+
+Servlet/JSP API:
+------------
+Web Application can be develop using Servlet or JSP APIs
+
+
+
+Servlet API:
+============
+javax.servlet.*;
+
+Interfaces:
+-----------
+Servlet
+ServletRequest
+ServletResponse
+RequestDispatcher
+
+class:
+--------
+GenericServlet  (its a implementation class of Servlet)
+Cookie
+
+javax.servlet.http.*;
+interfaces:
+------------
+HttpServletRequest
+HttpServletResponse
+HttpSession
+
+class:
+------
+HttpServlet (its a child of GenericServlet class)
+
+
+ Servlet(I)   // abstract  init() , service(request,response) , destroy()  
+				---> LifeCycleMethods of Servlet
+
+
+ Servlet
+   |
+ GenericServlet(C)
+  |
+ HttpServlet(C)	
+
+Note: Any body wants to create Java Servlet Program , needs to extends HttpServlet class
+
+
+
+
+
+
