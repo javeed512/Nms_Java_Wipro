@@ -1,0 +1,34 @@
+
+
+RequestDispatcher (interface)
+
+RequestDispatcher  rd =	request.getRequestDispatcher("/display.jsp");
+
+   rd.forward(request,response); 
+        // forward request to destination resource and display only final page output
+
+
+   rd.include(request,response);
+
+		// it redirect request to destination resource and include all pages output to display
+
+
+
+Scope variables:
+----------------
+page (only in jsp)
+
+HttpServletRequest   request
+ServletContext       application/context
+HttpSession          session ******
+
+
+setAttribute(k,v);
+
+value  return <--- getAttribute(k);
+
+removeAttribute(k);  // it delete value
+
+
+
+	

@@ -1,0 +1,98 @@
+
+Servlet Engine
+-----------
+Servlet  =  Java + html
+
+
+
+
+
+
+======================
+JSP Engine:
+------------
+
+JSP : Java Server Pages
+
+JSP = HTML + Java code
+
+
+demo.jsp
+
+<h1>Hello friends</h1>
+
+welcome 
+
+<%
+int x =99;
+String s1 ="javeed";
+
+%>
+
+
+demo.jsp  ---> jsp compiler ---> Demo.java  ---> javac  ---> Demo.class ---> WebServer (JVM)
+
+import java.util.*;
+// Auto Generated Servlet class
+public  class  Demo extends HttpServlet{
+
+		int eid;
+		String ename;
+		
+			public void m1(){
+				
+					
+			}
+
+	jsp_init(){
+
+	}
+
+  jsp_service(request,response){
+
+	JspWriter  out = response.getWriter();
+
+		session
+		application
+		page
+		pageContext
+		 exception
+		config
+
+
+	
+		
+
+		out.print("Welcome to JSP");
+
+		out.print("<h1>Welcome to JSP</h1> HELLO FRIENDS");
+
+		int x = 99;
+	out.print("X value is : "+x);
+
+		out.print(x);
+
+		
+	}
+
+	jsp_destroy(){
+
+
+	}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
