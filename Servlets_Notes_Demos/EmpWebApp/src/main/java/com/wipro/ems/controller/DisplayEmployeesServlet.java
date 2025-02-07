@@ -7,11 +7,13 @@ import java.util.List;
 import com.wipro.ems.model.EmployeeModel;
 import com.wipro.ems.pojo.Employee;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class DisplayEmployeesServlet
@@ -41,10 +43,25 @@ public class DisplayEmployeesServlet extends HttpServlet {
 
 		List<Employee> list =		 model.getAllEmployees();
 		
-				out.print("List of Employees <br>");
-				
-				list.forEach((emp)->{ out.print(emp +"<br>"); });
+			out.print("<h1>DisplayEmployeeServlet redirected to display page...</h1>");
 		
+				//out.print("List of Employees <br>");
+				
+				//list.forEach((emp)->{ out.print(emp +"<br>"); });
+			
+			
+			  	HttpSession session =	request.getSession();
+			  	
+			  			session.setAttribute("empList", list);
+			  	
+			
+		
+		RequestDispatcher  rd =		request.getRequestDispatcher("/views/display.jsp");
+		
+				//rd.forward(request, response);
+		
+				rd.include(request, response);
+			
 	}
 
 	/**
