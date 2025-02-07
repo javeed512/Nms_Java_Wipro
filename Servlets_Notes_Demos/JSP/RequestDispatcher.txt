@@ -1,0 +1,27 @@
+
+
+RequestDispatcher:  
+
+It is used for inter-servlet communication/servlets chaining
+It is also used to redirect request from one resource to another resource(servlet,html,jsp)
+
+ void include(request,response); // it includes output of all the resource and display on browser
+
+ void forward(request,response);// it shows only final output of destination resource
+
+
+Scope variables/Objects:
+------------------------
+Scope variables will be used to store data in one servlet/jsp  and retrieve that data in another servlet/jsp page.
+
+1. HttpServletRequest  request object
+2. HttpSession         session object
+3. ServletContext      application/context object
+
+x.setAttribute("key",value); // at source
+
+	
+value = x.getAttribute("key");  // at destination
+
+x.removeAttribute("key");  // to delete data from scopes
+

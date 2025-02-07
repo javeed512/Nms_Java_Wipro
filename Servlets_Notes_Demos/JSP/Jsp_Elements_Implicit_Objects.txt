@@ -1,0 +1,178 @@
+JSP Elements:
+Note: NOrmal text or html is known as template
+1. JSP Scriptlet  <%   any java code %>
+2. JSP Expression  <%=  java exp to print   %>
+3. JSP Declaration <%!  methods,blocks, instance,static vars   %>
+4. JSP Directives   <%@  page     %>  and <%@ taglib  %>
+5. JSP action tags
+6. EL Expression
+
+
+
+
+JSP Implicit Objects/variables:
+----------------------------
+1.out
+2.request
+3.response
+4.session
+5. application
+6. page
+7. pageContext
+8. exception
+9. config
+
+
+
+jsp page
+hello.jsp
+------------
+<h1>welcome</h1>
+hello friends
+
+<%
+
+int x =90;
+out.print("x value "+x);
+
+
+
+%>
+
+<%=  x %>
+
+
+<%!
+
+PageContext pageContext;
+
+static String name;
+ int eid;
+public void m1(){
+
+	
+
+}
+
+static{
+
+
+}
+
+
+
+ %>
+
+
+
+
+AUTO - GENERATED SERVLET:
+=========================
+
+class hello_servlet extends  HttpServlet{
+
+
+	static String name;
+		 int eid;
+ 
+ 		PageContext pageContext;
+ 
+		public void m1(){
+
+			JspWriter out =	pageContext.getOut();
+	
+				out.print("m1() is called...");
+
+			}
+
+		static{
+
+
+		}
+	
+	
+	jspService(request,response){
+
+		
+
+		out,application,session,config,exception,page
+
+		
+		pageContext = PageContext.OUT;
+
+		session.getAttribute("emp");
+	
+
+	out.print("<h1>welcome</h1>  hello friends");
+
+		int x =90;
+		out.print("x value "+x);
+		
+		out.print("<br> "+ LocalDate.now());
+
+
+		out.print(session.getAttribute("emp"); );
+
+
+		
+		out.print(x);
+
+		static String name;
+
+		public void m1(){
+
+	
+
+		}
+		
+
+	}
+
+
+
+	
+
+
+}
+
+
+========================
+
+Expression Lang - Expression:
+-----------------------------
+
+EL-Expression used to print data from scope variables like request,session,application,page 
+
+syn:  ${ any expression with scopes}
+
+Ex: {emp}
+
+Note: In Jsp will have 4 scope variables  
+page      // page.getAttribute("emp")
+request   // request.getAttribute("emp");
+session   // session.getAttribute("emp");
+application
+
+
+========================================================
+
+Action Tags in JSP:
+
+
+There are many JSP action tags or elements. Each JSP action tag is used to perform some specific tasks.
+
+The action tags are used to control the flow between pages and to use Java Bean.
+ The Jsp action tags are given below.
+
+
+
+jsp:forward       // forwards the request and response to another resource.
+jsp:include	  //includes another resource.
+jsp:useBean	  //creates or locates bean/pojo object.
+jsp:setProperty	  //sets the value of property in bean object.
+jsp:getProperty   //	prints the value of property of the bean.
+jsp:param         // read data from html forms using parameter names
+
+Note: Jsp actions tags are alternate way to avoid java code in JSP pages , to make development easy and fast by writing very less java code or zero line of java code
+
+
