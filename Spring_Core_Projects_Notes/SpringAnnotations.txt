@@ -1,0 +1,39 @@
+Spring Conta
+
+
+
+
+
+
+Spring Framework Annotations:
+
+
+Annotation which instruct IOC to create object.
+Stereo Type:
+-------------
+@Component  (use for component class/pojo/bean class)
+@Service      (use for service class)
+@Repository   (use for repository or DAO)
+@Controller   (use for controllers or servlets)
+
+@Bean
+@Configuration
+
+
+@Autorwire  (it performs auto-wiring or DI )
+
+
+@ComponentScan 
+ (to scan packages to identify beans for which objects need to be created and autowiring need to perform)
+
+@Scope 
+default scope is (singleton)
+ 1.singleton   // create only single obj use globally in project
+2.prototype   // every time create a new unique object and return
+
+Note: request,session,application can be used only in Web Apps like servlets,jsp etc
+3.request   // keep bean object in request scope variable
+4.session   // keep bean object in session scope variable
+5.application // keep bean object in application scope variable
+
+
