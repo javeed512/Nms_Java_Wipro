@@ -1,0 +1,85 @@
+
+Revise:
+
+Pojo class
+Singleton and Factory Design pattern
+
+MVC Architecture
+
+
+Spring:
+----------
+
+class Address{
+
+	String  city;
+
+// constructor , setter, getter
+
+}
+
+class Employee {
+	int eid;
+	String name;
+	Address address;  // HAS A Relationship
+
+	List list;
+
+// constructor , setter, getter
+
+	public Employee(){
+
+		
+	}
+
+
+}
+
+
+DI : Injecting one class into another class using following options
+
+Address address = new Address("Hyd");
+
+1. Employee emp = new Employee(101,"king",address);// constructor DI
+
+2. Employee emp = new Employee();
+
+	emp.setAddress(new Address("pune"));// setter method DI
+
+3. interface Oriented DI
+
+ List list =	new ArrayList();
+
+ Employee emp = new Employee(list);
+	
+		     
+
+ 
+IOC:  Inversion of Control means , instead of developer spring container will do work like 
+		creating object , injecting object , manage object lifecycle etc
+
+======================================
+
+@Component
+class Address{
+
+				new Address();							
+
+}
+
+
+@Component
+class Employee{
+
+	int eid;
+	String ename;
+
+	@Autowired
+	Address address;
+
+				new Employee();
+
+}
+
+
+

@@ -1,10 +1,13 @@
 package com.wipro.springcore.bean;
 
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 //@Controller("e1")
 //@Repository("e1")
 //@Service("e1")
+
+@Scope("prototype")
 @Component("e1")
 public class Employee {
 	
