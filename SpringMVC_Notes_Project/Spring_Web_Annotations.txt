@@ -1,0 +1,22 @@
+
+
+In spring to create web application we use following annotations:
+
+1. @Controller
+2. @RequestMapping 
+3. @ResponseBody
+4. @ModelAttribute
+
+Limitations:
+1.Web application are created by using Servelts,HTML,JSP which does not support PUT,DELETE operations
+2. In Web Apps we write front-end and backend code in single project which makes maintanence very challenging and lots of dependency.
+3. As a Java Developer we need to focus on frontend part also which is not our job.
+4. We not only deal with data/business logic but also need to deal with unnecessary frontend work.
+5. The frontend code cannot be reuse by other applications.
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+
+
+
+Realtime Apps:
+-------------
+
+Web Application
+---------------
+Development Env
+
+JRE software
+Maven tool (Searching dependencies )
+Tomcat server (Web server)
+xml configuration (web.xml , hibernate.cfg.xml)
+Database
+
+
+jar file
+=====================================================================
+
+Production Machine/Env
+------------------------
+deploy jar file
+
+
+JRE software
+Maven tool (Searching dependencies )
+Tomcat server (Web server)
+xml configuration (web.xml , hibernate.cfg.xml)
+Database (mysql , oracle, postgres, teradata)
+
+
+
+
+SpringBoot:
+------------
+Spring Boot product given by pivotal company which help us to overcome above common problems.
+
+1. xml files will be replace with java properties file
+	Ex:  applicatin.properties 
+			username = javeed
+			password = tiger
+
+2. spring boot project will have built-in maven tool
+3. spring boot gives list of predefined maven dependencies , developers just need to select them.
+4. spring boot have embedded tomcat server.
+5. spring boot have embedded Database H2 DB.
+6. spring boot projects can be use for creating Console App, Web App , Enterprise App , Restful App
+7. spring boot reduce boiler plate code
+spring boot does not support xml and jsp by default.
+
+
+we can create spring boot project in 3 ways:
+
+1. In eclipse IDE , we can use spring starter option
+2. we can use official online website  www.spring.io (spring initializr) 
+  where online spring boot project will be created and downloaded as a zip file.
+3. Using spring CLI 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
