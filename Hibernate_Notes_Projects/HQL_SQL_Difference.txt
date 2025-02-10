@@ -1,0 +1,36 @@
+
+SQL:
+----
+
+Table: Emp_Table
+columns: emp_id , emp_name , emp_sal
+
+select emp_id, emp_name , emp_sal  from Emp_Table  where emp_sal > ?;
+
+
+
+
+HQL / JPQL:
+----------
+Hibernate Query Lang / Java Persistence Query Lang
+These langs uses same syntax which we use in SQL.
+
+Entity class:  Employee
+Properties :  eid,ename,salary
+
+HQL:   select  e.eid , e.ename , e.salary  from  Employee e;
+
+
+
+
+===========================================================
+
+
+
+
+
+
+
+
+
+
