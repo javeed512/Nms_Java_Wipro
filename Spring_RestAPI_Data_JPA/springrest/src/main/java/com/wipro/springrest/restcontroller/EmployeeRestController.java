@@ -29,6 +29,29 @@ public class EmployeeRestController {
 		return service.getEmployeeById(eid);
 	}
 
+	
+	@GetMapping("/getbyename/{ename}")
+	public Employee getByEname(@PathVariable String ename) {
+
+		return service.getByEname(ename);
+	}
+	
+	
+	@GetMapping("/get/gt-salary/{sal}")
+	public List<Employee> getSalaryGT(@PathVariable  double sal) {
+
+		return service.findBySalaryGreaterThan(sal);
+	}
+	
+	
+	@GetMapping("/getbysalaries/{min}/{max}")
+	public List<Employee> getAllBySalaries(@PathVariable  double min , @PathVariable double max) {
+
+		return service.getAllFilterBySalary(min, max);
+	}
+	
+	
+	
 	@PostMapping("/create")
 	public Employee createEmployee(@RequestBody Employee emp) {
 
@@ -56,6 +79,18 @@ public class EmployeeRestController {
 
 		return service.getAllEmployees();
 	}
+	
+	
+	
+	@DeleteMapping("/deletebyename/{ename}")
+	public String deleteByEname(@PathVariable String ename) {
+
+		 service.deleteByEname(ename);
+		 
+		 return "Delete Mapping executed..";
+
+	}
+	
 	
 	
 	

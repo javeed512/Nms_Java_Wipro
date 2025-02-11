@@ -19,6 +19,14 @@ public interface IEmployeeService {
 		public   ResponseEntity<String>  deleteEmployeeById(int eid);
 		
 		public     List<Employee>   getAllEmployees();
+		
+		 public 	 Employee	  getByEname(String ename);
+		 
+		 public List<Employee> findBySalaryGreaterThan(double salary);
+		 
+		 public  List<Employee>  getAllFilterBySalary(double min , double max);
+		 
+		 public  void  deleteByEname(String ename);
 	
 
 }
