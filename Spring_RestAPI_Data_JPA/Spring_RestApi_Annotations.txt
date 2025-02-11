@@ -1,0 +1,28 @@
+RestAPI / Restful Web Application using SpringBoot:
+====================================================
+
+Http Methods supported by RestAPI: 
+
+Get   ---> fetch data (select)
+Post  ---> create new data (insert)
+Put   ---> update existing data (update)
+Delete  ----> remove data  (delete)
+
+
+Spring Annotations for RestFul Applicatin:
+------------------------------------------
+
+@RestController  = (@Controller + @ResponseBody)
+@RequestMapping
+
+@GetMapping("/hello")   // alter of    @RequestMapping(value="/hello",RequestMethod.GET)
+@PostMapping
+@PutMapping
+@DeleteMapping
+
+@RequestBody
+@PathVariable
+
+
+
+
