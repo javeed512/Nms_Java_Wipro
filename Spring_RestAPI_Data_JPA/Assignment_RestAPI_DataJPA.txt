@@ -1,0 +1,25 @@
+
+Lab Time:4:25pm to 5:10pm
+Create SprintBoot Project
+Spring Web
+Spring Data JPA
+Spring mysql driver
+open application.properties file and copy paste configuration
+
+create packages
+com.wipro.pname
+com.wipro.pname.entity (Entity class)
+com.wipro.pname.service (Service interface + Service Impl class)
+com.wipro.pname.repository (only Repository interface)
+com.wipro.pname.restcontroller
+
+operations:
+insert --> save();
+
+findByProperty()
+findByPropertyGT()
+
+getAll() --> sorted by some property
+
+update  ---> custom query 
+getXx()  custom select queryy
