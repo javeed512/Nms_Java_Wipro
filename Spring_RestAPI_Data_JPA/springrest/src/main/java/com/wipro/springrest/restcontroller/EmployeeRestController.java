@@ -1,7 +1,9 @@
 package com.wipro.springrest.restcontroller;
 
+import java.util.List;
 
-
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,44 +14,52 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.wipro.springrest.entity.Employee;
+import com.wipro.springrest.service.IEmployeeService;
 
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeRestController {
+
+	@Autowired
+	IEmployeeService service;
+
+	@GetMapping("/getbyid/{eid}")
+	public Employee getById(@PathVariable int eid) {
+
+		return service.getEmployeeById(eid);
+	}
+
+	@PostMapping("/create")
+	public Employee createEmployee(@RequestBody Employee emp) {
+
+		return service.insertEmp(emp);
+
+	}
+
+	@PutMapping("/update")
+	public Employee updateEmployee(@RequestBody Employee emp) {
+
+		return service.updateEmp(emp);
+
+	}
+
+	@DeleteMapping("/deletebyid/{eid}")
+	public ResponseEntity<String> deleteById(@PathVariable int eid) {
+
+		return service.deleteEmployeeById(eid);
+
+	}
 	
 	
-			@GetMapping("/hello")
-			public  String   hello() {  // resource or end point
-				
-				return "Hello Friends";
-				
-			}
+	@GetMapping("/getall")
+	public List<Employee> getAllEmployees() {
+
+		return service.getAllEmployees();
+	}
 	
-			
-			@PostMapping("/insert")
-			public  String    createEmployee(@RequestBody Employee emp) {
-				
-				
-				return "Record inserted "+emp;
-				
-				
-			}
-			
-			@PutMapping("/update")
-			public String  updateEmployee(@RequestBody Employee emp) {
-				
-				return "Data updated "+emp;
-				
-			}
-			
-			@DeleteMapping("/delete/{eid}")
-			public String  deleteEmployee(@PathVariable  int eid) {
-				
-				return "Record Deleted "+eid;
-				
-			}
-			
-			
+	
+	
+	
 	
 	
 

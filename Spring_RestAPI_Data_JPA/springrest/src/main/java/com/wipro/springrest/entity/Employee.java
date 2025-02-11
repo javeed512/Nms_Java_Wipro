@@ -1,8 +1,13 @@
 package com.wipro.springrest.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Employee {  // pojo or DTO or bean  or entity
 	
 	
+	@Id
 	private int eid;
 	private  String ename;
 	private double salary;
