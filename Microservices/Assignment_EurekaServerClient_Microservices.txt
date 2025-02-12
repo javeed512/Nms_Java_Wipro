@@ -1,0 +1,23 @@
+
+
+
+
+
+
+Complete Assignment:
+
+Revise and Practice 
+
+ServiceRegistry/ServiceDiscovery
+
+Eureka Server config
+Eureka Client config
+
+Execute  in following order
+
+EurekaServer  8761
+Department MS 8181
+User   MS     8282
+
+Note: We can verify all Microservices running / register on Eureka Server using
+In Browser type URL : http://localhost:8761/
