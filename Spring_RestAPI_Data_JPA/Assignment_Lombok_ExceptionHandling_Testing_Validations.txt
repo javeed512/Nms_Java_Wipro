@@ -1,0 +1,39 @@
+
+Revise Following Topics
+========================
+
+Employee REST APIs CRUD Operation
+
+Exception Handling
+
+Unit Testing 
+JUnit All Annotations
+
+Logging using Log4J 
+
+
+Assignment:
+------------
+1.
+Implement Exception Handler in RestController
+Creat GlobalExceptionHandler class and implement methods to handle CustomException Globally
+
+User ResponseStatus or ResponseEntity for results
+
+2.
+Install Lombok in Eclipse/STS
+
+Add Lombok dependency in pom.xml file
+
+
+Add Lombok Annotations like @Setter,@Getter etc..
+Remove all methods from Pojo/DTO/Entity classes
+
+3.
+Use @Slf4J  to add log.info() , log.warn() .... methods in existing rest api project
+
+4. Perform input validations for Entity you are using in SpringBoot project
+
+5. Perform Unit Testing for SpringBoot project only for Service class
+6. Add HATE OAS RestController into above springboot project
+7. Add actuator and check application health
