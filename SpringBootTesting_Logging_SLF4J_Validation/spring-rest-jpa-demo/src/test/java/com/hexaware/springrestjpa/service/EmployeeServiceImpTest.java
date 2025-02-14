@@ -39,14 +39,14 @@ class EmployeeServiceImpTest {
 
 		//Employee emp = new Employee(124, "Shashank", 9000);
 		
-		EmployeeDTO emp = new EmployeeDTO(124, "shashank", 9000);
+		EmployeeDTO emp = new EmployeeDTO(502, "rahul", 9000);
 
 		Employee e1 = service.addEmployee(emp);
 		
 		logger.info("Employee Added Successfully ");
 
 		assertNotNull(e1);
-		assertEquals(124, e1.getEid());
+		assertEquals(502, e1.getEid());
 
 		assertTrue(e1.getEid() > 0);
 
