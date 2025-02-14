@@ -1,0 +1,560 @@
+2024-11-18 10:42:14.376 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImpTest [main] Starting EmployeeServiceImpTest using Java 23.0.1 with PID 976 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 10:42:14.395 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImpTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 10:42:15.436 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 10:42:15.507 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-11-18 10:42:16.050 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 10:42:16.143 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 10:42:16.148 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 10:42:16.599 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 10:42:16.635 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 10:42:17.162 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d6a0766
+2024-11-18 10:42:17.166 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 10:42:17.227 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 10:42:17.228 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 10:42:18.098 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 10:42:18.150 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 10:42:18.523 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 10:42:19.544 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 10:42:20.950 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImpTest [main] Started EmployeeServiceImpTest in 7.022 seconds (process running for 8.36)
+2024-11-18 10:42:21.518 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImp [main] com.hexaware.springrestjpa.dto.EmployeeDTO@6baa673d is Added from Add Service
+2024-11-18 10:42:21.680 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Error: 1364, SQLState: HY000
+2024-11-18 10:42:21.680 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] Field 'emp_name' doesn't have a default value
+2024-11-18 10:42:21.784 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 10:42:21.788 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 10:42:21.801 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 10:45:22.722 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImpTest [main] Starting EmployeeServiceImpTest using Java 23.0.1 with PID 16432 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 10:45:22.722 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImpTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 10:45:23.767 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 10:45:23.833 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2024-11-18 10:45:24.369 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 10:45:24.425 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 10:45:24.428 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 10:45:24.833 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 10:45:24.866 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 10:45:25.389 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12209826
+2024-11-18 10:45:25.392 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 10:45:25.457 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 10:45:25.459 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 10:45:26.357 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 10:45:26.404 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 10:45:26.808 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 10:45:27.813 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 10:45:29.220 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImpTest [main] Started EmployeeServiceImpTest in 6.95 seconds (process running for 8.255)
+2024-11-18 10:45:29.790 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImp [main] com.hexaware.springrestjpa.dto.EmployeeDTO@4a52178 is Added from Add Service
+2024-11-18 10:45:29.918 [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImpTest [main] Employee Added Successfully 
+2024-11-18 10:45:30.021 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 10:45:30.025 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 10:45:30.042 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:23:46.654 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest2 [main] Starting EmployeeRestControllerTest2 using Java 23.0.1 with PID 18112 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:23:46.655 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest2 [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:23:47.741 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:23:47.836 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2024-11-18 11:23:48.402 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:23:48.505 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:23:48.509 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:23:48.953 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:23:48.992 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:23:49.483 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7910f355
+2024-11-18 11:23:49.486 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:23:49.545 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:23:49.547 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:23:50.435 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:23:50.484 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:23:50.880 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:23:51.871 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:23:53.274 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest2 [main] Started EmployeeRestControllerTest2 in 7.049 seconds (process running for 8.349)
+2024-11-18 11:23:53.968 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:23:53.972 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:23:53.984 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:27:23.897 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest2 [main] Starting EmployeeRestControllerTest2 using Java 23.0.1 with PID 9720 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:27:23.898 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest2 [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:27:24.881 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:27:24.951 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-11-18 11:27:25.490 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:27:25.576 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:27:25.581 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:27:26.007 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:27:26.045 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:27:26.555 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7910f355
+2024-11-18 11:27:26.557 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:27:26.621 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:27:26.624 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:27:27.506 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:27:27.557 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:27:27.944 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:27:28.994 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:27:30.413 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest2 [main] Started EmployeeRestControllerTest2 in 6.992 seconds (process running for 8.339)
+2024-11-18 11:27:31.180 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:27:31.184 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:27:31.198 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:29:14.122 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 7640 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:29:14.124 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:29:15.104 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:29:15.170 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+2024-11-18 11:29:15.683 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:29:15.763 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:29:15.766 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:29:16.155 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:29:16.190 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:29:16.705 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34ab26a
+2024-11-18 11:29:16.709 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:29:16.778 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:29:16.782 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:29:17.763 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:29:17.806 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:29:18.189 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:29:19.199 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:29:20.551 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.862 seconds (process running for 8.115)
+2024-11-18 11:29:21.286 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:29:21.289 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:29:21.302 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:30:36.329 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 3684 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:30:36.330 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:30:37.300 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:30:37.366 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2024-11-18 11:30:37.891 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:30:37.975 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:30:37.986 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:30:38.422 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:30:38.461 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:30:38.968 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ea75b05
+2024-11-18 11:30:38.971 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:30:39.021 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:30:39.022 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:30:39.885 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:30:39.932 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:30:40.335 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:30:41.323 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:30:42.677 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.78 seconds (process running for 8.116)
+2024-11-18 11:30:43.418 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:30:43.422 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:30:43.435 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 11:33:28.953[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Starting SpringRestJpaApplication using Java 23.0.1 with PID 16084 (E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo\target\classes started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+[32m2024-11-18 11:33:28.954[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-11-18 11:33:29.805[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-11-18 11:33:29.852[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interface.
+[32m2024-11-18 11:33:30.361[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+[32m2024-11-18 11:33:30.370[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-11-18 11:33:30.371[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[32m2024-11-18 11:33:30.474[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-11-18 11:33:30.475[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1446 ms
+[32m2024-11-18 11:33:30.606[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-11-18 11:33:30.652[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+[32m2024-11-18 11:33:30.654[0;39m [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+[32m2024-11-18 11:33:30.884[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-11-18 11:33:30.907[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-11-18 11:33:31.284[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@370225c7
+[32m2024-11-18 11:33:31.285[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-11-18 11:33:31.328[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-11-18 11:33:31.330[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[32m2024-11-18 11:33:32.043[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-11-18 11:33:32.095[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:33:32.374[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-11-18 11:33:32.915[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-11-18 11:33:33.676[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+[32m2024-11-18 11:33:33.685[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Started SpringRestJpaApplication in 5.161 seconds (process running for 5.862)
+[32m2024-11-18 11:36:07.837[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-11-18 11:36:07.838[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-11-18 11:36:07.840[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+[32m2024-11-18 11:36:42.341[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested.
+[32m2024-11-18 11:36:42.345[0;39m [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(5)-127.0.0.1] Stopping service [Tomcat]
+[32m2024-11-18 11:36:42.347[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(5)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[32m2024-11-18 11:36:42.354[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(5)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:36:42.356[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-11-18 11:36:42.362[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2024-11-18 11:36:50.590 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 15132 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:36:50.591 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:36:51.562 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:36:51.632 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-11-18 11:36:52.160 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:36:52.233 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:36:52.237 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:36:52.678 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:36:52.728 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:36:53.257 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30d5e37c
+2024-11-18 11:36:53.260 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:36:53.317 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:36:53.320 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:36:54.182 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:36:54.229 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:36:54.647 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:36:55.672 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:36:57.023 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.863 seconds (process running for 8.261)
+2024-11-18 11:36:57.720 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:36:57.725 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:36:57.739 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:40:16.010 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 16360 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:40:16.011 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:40:16.987 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:40:17.063 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-11-18 11:40:17.611 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:40:17.701 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:40:17.705 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:40:18.105 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:40:18.143 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:40:18.621 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f39269d
+2024-11-18 11:40:18.624 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:40:18.691 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:40:18.692 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:40:19.570 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:40:19.619 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:40:20.000 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:40:20.998 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:40:22.382 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.8 seconds (process running for 8.225)
+2024-11-18 11:40:23.105 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:40:23.108 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:40:23.119 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 11:41:59.539[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Starting SpringRestJpaApplication using Java 23.0.1 with PID 14604 (E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo\target\classes started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+[32m2024-11-18 11:41:59.541[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-11-18 11:42:00.268[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-11-18 11:42:00.310[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+[32m2024-11-18 11:42:00.734[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8181 (http)
+[32m2024-11-18 11:42:00.742[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-11-18 11:42:00.742[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[32m2024-11-18 11:42:00.852[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-11-18 11:42:00.852[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1242 ms
+[32m2024-11-18 11:42:00.969[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-11-18 11:42:01.014[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+[32m2024-11-18 11:42:01.017[0;39m [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+[32m2024-11-18 11:42:01.258[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-11-18 11:42:01.280[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-11-18 11:42:01.650[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71139e77
+[32m2024-11-18 11:42:01.652[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-11-18 11:42:01.697[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-11-18 11:42:01.698[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[32m2024-11-18 11:42:02.417[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-11-18 11:42:02.459[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:42:02.706[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-11-18 11:42:03.238[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-11-18 11:42:03.983[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8181 (http) with context path ''
+[32m2024-11-18 11:42:03.991[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Started SpringRestJpaApplication in 4.813 seconds (process running for 5.455)
+[32m2024-11-18 11:42:08.464[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8181-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-11-18 11:42:08.464[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8181-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-11-18 11:42:08.465[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8181-exec-1] Completed initialization in 1 ms
+2024-11-18 11:44:07.135 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 9340 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:44:07.137 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:44:08.101 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:44:08.181 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+2024-11-18 11:44:08.711 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:44:08.814 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:44:08.819 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:44:09.353 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:44:09.398 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:44:09.899 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13cc31ae
+2024-11-18 11:44:09.903 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:44:09.970 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:44:09.971 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:44:10.824 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:44:10.872 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:44:11.243 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:44:12.227 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:44:13.631 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.924 seconds (process running for 8.315)
+2024-11-18 11:44:14.358 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:44:14.362 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:44:14.376 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:48:00.522 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 7400 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:48:00.524 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:48:01.502 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:48:01.579 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interface.
+2024-11-18 11:48:02.124 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:48:02.192 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:48:02.202 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:48:02.618 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:48:02.654 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:48:03.186 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62faf77
+2024-11-18 11:48:03.189 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:48:03.251 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:48:03.252 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:48:04.111 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:48:04.154 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:48:04.518 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:48:05.446 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:48:06.815 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.728 seconds (process running for 8.066)
+2024-11-18 11:48:07.561 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:48:07.564 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:48:07.575 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 11:48:20.855[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+[32m2024-11-18 11:48:20.861[0;39m [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(11)-127.0.0.1] Stopping service [Tomcat]
+[32m2024-11-18 11:48:20.862[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(11)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[32m2024-11-18 11:48:20.869[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(11)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:48:20.870[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-11-18 11:48:20.876[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 11:48:40.117[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Starting SpringRestJpaApplication using Java 23.0.1 with PID 17336 (E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo\target\classes started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+[32m2024-11-18 11:48:40.119[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-11-18 11:48:40.843[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-11-18 11:48:40.886[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+[32m2024-11-18 11:48:41.305[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8181 (http)
+[32m2024-11-18 11:48:41.313[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-11-18 11:48:41.314[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[32m2024-11-18 11:48:41.426[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-11-18 11:48:41.426[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1222 ms
+[32m2024-11-18 11:48:41.547[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-11-18 11:48:41.592[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+[32m2024-11-18 11:48:41.594[0;39m [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+[32m2024-11-18 11:48:41.827[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-11-18 11:48:41.852[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-11-18 11:48:42.238[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@156324b
+[32m2024-11-18 11:48:42.240[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-11-18 11:48:42.280[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-11-18 11:48:42.281[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[32m2024-11-18 11:48:43.002[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-11-18 11:48:43.048[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:48:43.285[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-11-18 11:48:43.801[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-11-18 11:48:44.552[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8181 (http) with context path ''
+[32m2024-11-18 11:48:44.560[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Started SpringRestJpaApplication in 4.82 seconds (process running for 5.479)
+[32m2024-11-18 11:49:16.647[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-127.0.0.1] Application shutdown requested.
+[32m2024-11-18 11:49:16.653[0;39m [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(2)-127.0.0.1] Stopping service [Tomcat]
+[32m2024-11-18 11:49:16.662[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(2)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:49:16.664[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-11-18 11:49:16.671[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(2)-127.0.0.1] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 11:49:18.827[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Starting SpringRestJpaApplication using Java 23.0.1 with PID 14996 (E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo\target\classes started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+[32m2024-11-18 11:49:18.829[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-11-18 11:49:19.515[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-11-18 11:49:19.559[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+[32m2024-11-18 11:49:19.983[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+[32m2024-11-18 11:49:19.992[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-11-18 11:49:19.992[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[32m2024-11-18 11:49:20.117[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-11-18 11:49:20.118[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1224 ms
+[32m2024-11-18 11:49:20.240[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-11-18 11:49:20.283[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+[32m2024-11-18 11:49:20.285[0;39m [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+[32m2024-11-18 11:49:20.530[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-11-18 11:49:20.552[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-11-18 11:49:20.929[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@299fc582
+[32m2024-11-18 11:49:20.930[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-11-18 11:49:20.973[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-11-18 11:49:20.975[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[32m2024-11-18 11:49:21.695[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-11-18 11:49:21.736[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:49:21.976[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-11-18 11:49:22.498[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-11-18 11:49:23.250[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+[32m2024-11-18 11:49:23.259[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Started SpringRestJpaApplication in 4.813 seconds (process running for 5.481)
+2024-11-18 11:49:34.518 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 1424 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:49:34.519 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:49:35.508 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:49:35.572 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-11-18 11:49:36.158 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:49:36.271 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:49:36.274 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:49:36.699 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:49:36.738 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:49:37.255 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13cc31ae
+2024-11-18 11:49:37.258 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:49:37.323 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:49:37.326 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:49:38.231 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:49:38.279 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:49:38.646 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:49:39.658 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:49:41.025 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.929 seconds (process running for 8.253)
+[32m2024-11-18 11:49:41.757[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-11-18 11:49:41.758[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-11-18 11:49:41.759[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+[32m2024-11-18 11:49:42.049[0;39m [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestController [http-nio-8080-exec-2] EmployeeRestController executed...
+[32m2024-11-18 11:49:42.050[0;39m [INFO] com.hexaware.springrestjpa.service.EmployeeServiceImp [http-nio-8080-exec-2] com.hexaware.springrestjpa.dto.EmployeeDTO@77f5518c is Added from Add Service
+[32m2024-11-18 11:49:42.103[0;39m [WARN] com.hexaware.springrestjpa.restcontroller.EmployeeRestController [http-nio-8080-exec-2] employee object is not null in RestController
+2024-11-18 11:49:42.116 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:49:42.120 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:49:42.139 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:51:26.499 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 5364 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:51:26.500 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:51:27.564 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:51:27.636 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-11-18 11:51:28.190 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:51:28.266 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:51:28.272 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:51:28.697 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:51:28.733 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:51:29.264 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13cc31ae
+2024-11-18 11:51:29.265 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:51:29.329 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:51:29.331 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:51:30.209 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:51:30.256 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:51:30.650 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:51:31.659 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:51:33.036 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.943 seconds (process running for 8.246)
+2024-11-18 11:51:33.804 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:51:33.809 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:51:33.824 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 11:53:56.143 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 14900 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:53:56.144 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:53:57.139 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:53:57.209 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2024-11-18 11:53:57.819 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:53:57.908 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:53:57.918 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:53:58.409 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:53:58.454 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:53:59.088 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30d5e37c
+2024-11-18 11:53:59.090 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:53:59.157 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:53:59.159 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:54:00.157 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:54:00.209 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:54:00.614 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:54:01.639 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:54:03.035 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 7.298 seconds (process running for 8.802)
+2024-11-18 11:54:03.792 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:54:03.796 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:54:03.820 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 11:55:42.576[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+[32m2024-11-18 11:55:42.582[0;39m [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(10)-127.0.0.1] Stopping service [Tomcat]
+[32m2024-11-18 11:55:42.583[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(10)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[32m2024-11-18 11:55:42.592[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:55:42.595[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-11-18 11:55:42.601[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 11:55:44.817[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Starting SpringRestJpaApplication using Java 23.0.1 with PID 6836 (E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo\target\classes started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+[32m2024-11-18 11:55:44.818[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-11-18 11:55:45.524[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-11-18 11:55:45.567[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+[32m2024-11-18 11:55:45.989[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+[32m2024-11-18 11:55:45.998[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-11-18 11:55:45.998[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[32m2024-11-18 11:55:46.096[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-11-18 11:55:46.096[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1207 ms
+[32m2024-11-18 11:55:46.215[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-11-18 11:55:46.264[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+[32m2024-11-18 11:55:46.266[0;39m [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+[32m2024-11-18 11:55:46.499[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-11-18 11:55:46.521[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-11-18 11:55:46.886[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b30eec5
+[32m2024-11-18 11:55:46.888[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-11-18 11:55:46.928[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-11-18 11:55:46.929[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[32m2024-11-18 11:55:47.658[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-11-18 11:55:47.701[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 11:55:47.941[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-11-18 11:55:48.469[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-11-18 11:55:49.216[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+[32m2024-11-18 11:55:49.225[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Started SpringRestJpaApplication in 4.777 seconds (process running for 5.428)
+2024-11-18 11:55:58.079 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 16708 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 11:55:58.080 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 11:55:59.170 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 11:55:59.235 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-11-18 11:55:59.770 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 11:55:59.862 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 11:55:59.866 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 11:56:00.305 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 11:56:00.339 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 11:56:00.871 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30d5e37c
+2024-11-18 11:56:00.874 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 11:56:00.928 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 11:56:00.929 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 11:56:01.808 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 11:56:01.854 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:56:02.222 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 11:56:03.234 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 11:56:04.638 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.986 seconds (process running for 8.338)
+[32m2024-11-18 11:56:05.336[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-11-18 11:56:05.336[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-11-18 11:56:05.337[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-11-18 11:56:05.622 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 11:56:05.625 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 11:56:05.640 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 12:29:39.002[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(38)-127.0.0.1] Application shutdown requested.
+[32m2024-11-18 12:29:39.008[0;39m [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(38)-127.0.0.1] Stopping service [Tomcat]
+[32m2024-11-18 12:29:39.009[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(38)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[32m2024-11-18 12:29:39.016[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(38)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 12:29:39.018[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(38)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-11-18 12:29:39.021[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(38)-127.0.0.1] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 12:29:41.217[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Starting SpringRestJpaApplication using Java 23.0.1 with PID 2708 (E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo\target\classes started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+[32m2024-11-18 12:29:41.218[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] No active profile set, falling back to 1 default profile: "default"
+[32m2024-11-18 12:29:41.924[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[32m2024-11-18 12:29:41.968[0;39m [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+[32m2024-11-18 12:29:42.392[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+[32m2024-11-18 12:29:42.401[0;39m [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+[32m2024-11-18 12:29:42.401[0;39m [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.18]
+[32m2024-11-18 12:29:42.497[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+[32m2024-11-18 12:29:42.498[0;39m [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1215 ms
+[32m2024-11-18 12:29:42.616[0;39m [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[32m2024-11-18 12:29:42.661[0;39m [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+[32m2024-11-18 12:29:42.663[0;39m [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+[32m2024-11-18 12:29:42.903[0;39m [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[32m2024-11-18 12:29:42.924[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+[32m2024-11-18 12:29:43.305[0;39m [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff1f465
+[32m2024-11-18 12:29:43.307[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+[32m2024-11-18 12:29:43.347[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[32m2024-11-18 12:29:43.348[0;39m [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+[32m2024-11-18 12:29:44.072[0;39m [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[32m2024-11-18 12:29:44.119[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 12:29:44.355[0;39m [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[32m2024-11-18 12:29:44.865[0;39m [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[32m2024-11-18 12:29:45.618[0;39m [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+[32m2024-11-18 12:29:45.626[0;39m [INFO] com.hexaware.springrestjpa.SpringRestJpaApplication [main] Started SpringRestJpaApplication in 4.776 seconds (process running for 5.434)
+2024-11-18 12:30:16.808 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 3124 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 12:30:16.810 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 12:30:17.846 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 12:30:17.910 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-11-18 12:30:18.519 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 12:30:18.610 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 12:30:18.614 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 12:30:19.037 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 12:30:19.074 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 12:30:19.545 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4597e6e3
+2024-11-18 12:30:19.548 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 12:30:19.613 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 12:30:19.615 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 12:30:20.497 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 12:30:20.542 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 12:30:20.947 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 12:30:21.927 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 12:30:23.277 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.877 seconds (process running for 8.185)
+[32m2024-11-18 12:30:24.018[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[32m2024-11-18 12:30:24.018[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[32m2024-11-18 12:30:24.019[0;39m [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+[32m2024-11-18 12:30:24.299[0;39m [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.hexaware.springrestjpa.entities.Employee com.hexaware.springrestjpa.restcontroller.EmployeeRestController.updateEmployee(com.hexaware.springrestjpa.entities.Employee): [Field error in object 'employee' on field 'salary': rejected value [90000.0]; codes [Max.employee.salary,Max.salary,Max.double,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employee.salary,salary]; arguments []; default message [salary],50000]; default message [must be less than or equal to 50000]] ]
+2024-11-18 12:30:24.419 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 12:30:24.422 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 12:30:24.434 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 12:32:57.321 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 17816 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 12:32:57.323 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 12:32:58.295 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 12:32:58.369 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-11-18 12:32:58.896 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 12:32:58.996 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 12:32:59.000 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 12:32:59.430 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 12:32:59.470 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 12:32:59.963 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13cc31ae
+2024-11-18 12:32:59.966 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 12:33:00.029 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 12:33:00.031 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 12:33:00.951 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 12:33:00.996 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 12:33:01.389 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 12:33:02.394 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 12:33:03.785 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 6.947 seconds (process running for 8.26)
+2024-11-18 12:33:04.607 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 12:33:04.610 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 12:33:04.627 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-11-18 12:33:27.173 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Starting EmployeeRestControllerTest using Java 23.0.1 with PID 16608 (started by DELL in E:\Hexaware_JavaFSD_Repo\Jan_Hexaware\SpringBootTesting_Logging_SLF4J\spring-rest-jpa-demo)
+2024-11-18 12:33:27.174 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2024-11-18 12:33:28.145 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-18 12:33:28.214 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-11-18 12:33:28.762 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-18 12:33:28.820 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.20.Final
+2024-11-18 12:33:28.823 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2024-11-18 12:33:29.217 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-18 12:33:29.254 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2024-11-18 12:33:29.800 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4597e6e3
+2024-11-18 12:33:29.803 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2024-11-18 12:33:29.866 [WARN] org.hibernate.orm.deprecation [main] HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-18 12:33:29.867 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-11-18 12:33:30.970 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-18 12:33:31.061 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 12:33:31.593 [INFO] org.springframework.data.jpa.repository.query.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-18 12:33:33.074 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-18 12:33:34.573 [INFO] com.hexaware.springrestjpa.restcontroller.EmployeeRestControllerTest [main] Started EmployeeRestControllerTest in 7.863 seconds (process running for 9.18)
+2024-11-18 12:33:35.414 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-18 12:33:35.418 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-11-18 12:33:35.431 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+[32m2024-11-18 16:02:32.185[0;39m [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(216)-127.0.0.1] Application shutdown requested.
+[32m2024-11-18 16:02:32.191[0;39m [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(216)-127.0.0.1] Stopping service [Tomcat]
+[32m2024-11-18 16:02:32.192[0;39m [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(216)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet'
+[32m2024-11-18 16:02:32.199[0;39m [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(216)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[32m2024-11-18 16:02:32.201[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(216)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[32m2024-11-18 16:02:32.204[0;39m [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(216)-127.0.0.1] HikariPool-1 - Shutdown completed.
