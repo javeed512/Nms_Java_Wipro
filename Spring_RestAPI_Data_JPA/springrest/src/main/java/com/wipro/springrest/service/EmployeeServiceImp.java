@@ -14,6 +14,9 @@ import org.springframework.transaction.annotation.Transactional;
 import com.wipro.springrest.entity.Employee;
 import com.wipro.springrest.repositoy.EmployeeRepository;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @Transactional
 @Service
 public class EmployeeServiceImp implements IEmployeeService {
@@ -37,6 +40,8 @@ public class EmployeeServiceImp implements IEmployeeService {
 
 	@Override
 	public Employee getEmployeeById(int eid) {
+		
+		log.info("employee data fetch from db to service");
 		
 		return  repo.findById(eid).orElse(null);
 	}

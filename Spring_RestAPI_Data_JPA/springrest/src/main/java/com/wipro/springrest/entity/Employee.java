@@ -2,7 +2,18 @@ package com.wipro.springrest.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.extern.slf4j.Slf4j;
 
+
+@Slf4j
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class Employee {  // pojo or DTO or bean  or entity
 	
@@ -13,45 +24,6 @@ public class Employee {  // pojo or DTO or bean  or entity
 	private double salary;
 	
 	
-	public Employee() {
-		
-	}
-	
-	public Employee(int eid, String ename, double salary) {
-		super();
-		this.eid = eid;
-		this.ename = ename;
-		this.salary = salary;
-	}
-
-	public int getEid() {
-		return eid;
-	}
-
-	public void setEid(int eid) {
-		this.eid = eid;
-	}
-
-	public String getEname() {
-		return ename;
-	}
-
-	public void setEname(String ename) {
-		this.ename = ename;
-	}
-
-	public double getSalary() {
-		return salary;
-	}
-
-	public void setSalary(double salary) {
-		this.salary = salary;
-	}
-
-	@Override
-	public String toString() {
-		return "Employee [eid=" + eid + ", ename=" + ename + ", salary=" + salary + "]";
-	}
 	
 	
 	

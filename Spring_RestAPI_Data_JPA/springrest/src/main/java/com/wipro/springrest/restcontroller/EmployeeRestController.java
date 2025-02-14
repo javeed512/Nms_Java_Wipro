@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.wipro.springrest.entity.Employee;
+import com.wipro.springrest.exception.EmployeeNotFoundException;
 import com.wipro.springrest.service.IEmployeeService;
 
 @RestController
@@ -24,9 +25,22 @@ public class EmployeeRestController {
 	IEmployeeService service;
 
 	@GetMapping("/getbyid/{eid}")
-	public Employee getById(@PathVariable int eid) {
+	public Employee getById(@PathVariable int eid) throws EmployeeNotFoundException {
 
-		return service.getEmployeeById(eid);
+		Employee emp =   service.getEmployeeById(eid);
+		
+		
+		if(emp != null) {
+			
+			return emp;
+			
+		}
+		else {
+			
+			throw  new  EmployeeNotFoundException();
+			
+		}
+		
 	}
 
 	
