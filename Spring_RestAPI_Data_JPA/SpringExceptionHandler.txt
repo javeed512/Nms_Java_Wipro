@@ -1,0 +1,27 @@
+
+
+Spring REST API:
+-----------------
+@RestController
+class EmployeeRestController{
+
+@ResponseStatus(reason="any message",HttpStatus.Code)
+@ExceptionHandler(Exception)
+method(){
+
+}
+
+}
+--------------
+
+@RestControllerAdvice
+class   GlobalExpceptionHandler{
+
+	@ExceptionHandler(Exception)
+	public void method(){
+
+	}
+
+
+
+}
