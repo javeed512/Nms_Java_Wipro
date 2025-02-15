@@ -1,0 +1,17 @@
+Spring Boot – Reactive Programming Using Spring Webflux Framework
+Last Updated : 06 Feb, 2024
+In this article, we will explore React programming in Spring Boot, Reactive programming is an asynchronous, non-blocking programming paradigm for developing highly responsive applications that react to external stimuli.
+
+What is Reactive Programming
+In reactive programming, the flow of data is asynchronous through push-based publishers and subscribers instead of synchronous pull-based calls.
+The core abstraction in reactive programming is the reactive stream which provides a standard way to work with asynchronous streams of data. The two primary reactive stream interfaces are Publisher and Subscriber.
+Publishers push data to Subscribers asynchronously. Subscribers register callbacks and are notified when new data arrives instead of actively polling for it.
+Examples of reactive streams include Mono and Flux in Spring Webflux. 
+Mono represents a single event/value and Flux represents a stream of multiple values.
+Benefits of Reactive Programming with Spring Webflux
+Support for Reactive Types
+Integration with Reactive Streams
+Non-blocking I/O
+Microservices-friendly
+
+
