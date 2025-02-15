@@ -1,0 +1,26 @@
+
+Important Topics:
+================
+Spring Basics annotations ,IOC , DI etc..
+
+Spring MVC Architecture
+
+Spring REST API CRUD
+Spring DATA JPA
+Hibernate basics and Mappings
+
+Spring Microservices 
+EurekaSErver and EurekaClient
+
+Spring Security jwt
+
+Spring WebFlux (Reactive programming)
+
+Spring GlobalExp handling
+
+Spring Unit testing
+Lombok usage  
+
+Log4j using SL4J 
+
+

@@ -1,0 +1,26 @@
+
+
+Spring Web Flux Project:
+------------------------
+Create project  spring rest data with R2DBC
+dependencies:
+1. spring webflux/Reactive web
+2. spring r2dbc
+3. mysql driver
+4. lombok
+
+application.properties/yml file add properties
+Create 
+Entity/POJO class
+Service (interface and class)
+Repository extends ReactiveCrudRepository<CustomEntity, Long>
+Restcontroller  --> mono  or flux
+
+INSERT , UPDATE write custom query and code dont use repo.save();
+get , getAll , delete  repository
+-----------------------------------------
+optional task , try to generate id and pass to the sql query
+java.util.UUID.randomUUID();
+ public Long generateiD(){
+	return  code-generate-id;
+}
