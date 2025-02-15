@@ -3,10 +3,14 @@ package com.wipro.webflux.entity;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
+import jakarta.annotation.Generated;
+
 
 @Table("users_table")
 public class User {
-    @Id
+    
+	
+	@Id
     private Long id;
     private String name;
     private String email;

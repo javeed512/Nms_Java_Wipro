@@ -22,6 +22,8 @@ public class UserServiceImp implements IUserService {
 	@Override
 	public Mono<User> createUser(User user) {
 	
+		
+	
 		return repo.save(user);
 	}
 
@@ -41,8 +43,19 @@ public class UserServiceImp implements IUserService {
 	@Override
 	public Flux<User> getAllUsers() {
 	
-		return repo.findAll().delayElements(Duration.ofSeconds(10)); //back pressure
-		// Introduce a delay of 1 second between emitting elements
+		return repo.findAll().delayElements(Duration.ofSeconds(2)); //back pressure
+		// Introduce a delay of 10 second between emitting elements
 	}
 
+	@Override
+	public Mono<User> updateUser(Long id, User user) {
+        return repo.findById(id)
+                .flatMap(existingUser -> {
+                    existingUser.setName(user.getName());
+                    existingUser.setEmail(user.getEmail());
+                    return repo.save(existingUser);
+                });
+    }
+
+	
 }

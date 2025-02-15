@@ -10,6 +10,8 @@ public interface IUserService {
 	
 	public Mono<User> createUser( User user) ;
 	
+	public Mono<User> updateUser(Long id, User user) ;
+	
 	  public Mono<User> getUserById( Long id) ;
 	
 	public Flux<User> getUsersByName(String name);
