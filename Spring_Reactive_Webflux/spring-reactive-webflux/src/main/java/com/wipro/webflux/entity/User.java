@@ -6,11 +6,12 @@ import org.springframework.data.relational.core.mapping.Table;
 import jakarta.annotation.Generated;
 
 
-@Table("users_table")
+@Table("myuser")
 public class User {
     
 	
 	@Id
+	
     private Long id;
     private String name;
     private String email;

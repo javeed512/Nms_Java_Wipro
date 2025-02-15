@@ -8,6 +8,6 @@ import com.wipro.webflux.entity.User;
 import reactor.core.publisher.Flux;
 
 @Repository
-public interface UserRepository extends ReactiveCrudRepository<User, Long> {
+public interface UserRepository extends            ReactiveCrudRepository<User, Long> {
     Flux<User> findByName(String name);
 }

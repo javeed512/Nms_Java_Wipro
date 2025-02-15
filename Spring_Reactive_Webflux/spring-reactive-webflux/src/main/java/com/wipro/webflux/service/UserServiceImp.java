@@ -1,8 +1,10 @@
 package com.wipro.webflux.service;
 
 import java.time.Duration;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.r2dbc.core.DatabaseClient;
 import org.springframework.stereotype.Service;
 
 import com.wipro.webflux.entity.User;
@@ -18,13 +20,30 @@ public class UserServiceImp implements IUserService {
 	@Autowired
 	UserRepository repo;
 	
-
+	@Autowired
+	 DatabaseClient  databaseClient;
+	
 	@Override
-	public Mono<User> createUser(User user) {
-	
+	public Mono<Object> createUser(User user) {
 		
+			System.out.println(databaseClient);
+		
+		
+			
 	
-		return repo.save(user);
+		 return this.databaseClient.sql("INSERT INTO  myuser(id,name,email) values(:id,:name,:email)")   
+				 .filter((statement, executeFunction) -> statement.returnGeneratedValues("user").execute())
+				   	 .bind("id", user.getId())
+				    .bind("name", user.getName())
+	                .bind("email", user.getEmail())
+	                .fetch()
+	                .first()
+	                .map((r)->{ return user;} );
+	                
+	            
+	              
+	
+	//	return repo.save(user);
 	}
 
 	@Override
